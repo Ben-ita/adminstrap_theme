@@ -1,0 +1,152 @@
+body{
+    background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar{
+    min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+    padding-top: 6px !important;
+    padding-bottom: 0 !important;
+    height: 33px;
+}
+
+.navbar-default {
+    background-color: #5ab659;
+    border-color: #44ad5e;
+  }
+.navbar-default .navbar-brand {
+    color: #ecf1ee;
+  }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #dbffe1;
+  }
+.navbar-default .navbar-text {
+    color: #ecf1ee;
+  }
+.navbar-default .navbar-nav > li > a {
+    color: #ecf1ee;
+  }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #dbffe1;
+  }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #dbffe1;
+    background-color: #44ad5e;
+  }
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #dbffe1;
+    background-color: #44ad5e;
+  }
+.navbar-default .navbar-toggle {
+    border-color: #44ad5e;
+  }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #44ad5e;
+  }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf1ee;
+  }
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf1ee;
+  }
+.navbar-default .navbar-link {
+    color: #ecf1ee;
+  }
+.navbar-default .navbar-link:hover {
+    color: #dbffe1;
+  }
+
+  /* Custom */
+.main-color-bg{
+  background-color: #5ab659 !important;
+  border-color: #44ad5e !important;
+  color: white !important;
+}
+
+/* Header */
+#header{
+  background: #333333;
+  color: white;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header .create{
+  padding-top: 20px;
+}
+
+#header .create li a{
+  cursor: pointer !important;
+}
+
+/* Breadcrumb */
+.breadcrumb{
+  background: #ccc;
+  color: #333;
+}
+
+.breadcrumb a{
+  color: #333;
+}
+
+/* Progress Bars */
+.progress-bar{
+  background: #333;
+  color: white;
+}
+
+.dash-box{
+  text-align: center;
+}
+
+.list-group-item.active .badge {
+  color: #333 !important;
+}
+
+#login{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+/* Footer */
+#footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+
+
+
+  
+  @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #ecf1ee;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #dbffe1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #dbffe1;
+      background-color: #44ad5e;
+    }
+  }
